@@ -1,0 +1,23 @@
+Explain, at a high level, how you will implement a solution to the problem. Include a diagram of major components to the system (not a full architectural design, but a high level overview of the major system components and how a user or external system might interface). Avoid specific implementation details (operating system, programming languages, etc.). This section should occupy at least 1 full page.
+
+\vspace{5mm}
+
+Equipment;
+giant pot
+thermometer
+pump
+heating element
+
+
+The main workhorse of the project will be the microcontrollers. We've chosen the ESP32 to be the main microcontroller in the project. The ESP32 will control heating the water in the hot liquor tank, that heated water will be pumped from the HLT to the mash tun
+o
+
+Microcontroller controls pump
+
+Microcontroller controls heat
+
+when water reaches desired temp it will be sent to the mash tun via pumps to preheat the mash tun
+
+when the mash tun is pre heated the water will go back to the HLT
+
+
